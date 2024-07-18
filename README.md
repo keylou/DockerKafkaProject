@@ -87,3 +87,13 @@ kafka-console-consumer \
     --topic paid-orders \
     --from-beginning
 ```
+
+# Результат работы кода.
+
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/546a2356-dae2-476c-b08e-8853a124dd11">
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/52295ebb-8c8b-446e-b6fb-8e71303219be">
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/10bd9e42-da9a-466e-b16e-7d5742bbff6f">
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/ee73721d-ffbf-48e9-b9e1-f54df4a0a5a5">
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/59aae2f7-dc55-46a3-8dc4-bdc9c93068d9">
+
+
