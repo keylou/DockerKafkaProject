@@ -10,10 +10,15 @@ docker-compose up
 docker exec -it broker bash
 
 kafka-topics --bootstrap-server localhost:9092 --topic orders-by-user --delete
+
 kafka-topics --bootstrap-server localhost:9092 --topic discount-profiles-by-user --delete
+
 kafka-topics --bootstrap-server localhost:9092 --topic discounts --delete
+
 kafka-topics --bootstrap-server localhost:9092 --topic orders --delete
+
 kafka-topics --bootstrap-server localhost:9092 --topic payments --delete
+
 kafka-topics --bootstrap-server localhost:9092 --topic paid-orders --delete
 
 
@@ -21,24 +26,29 @@ kafka-topics \
   --bootstrap-server localhost:9092 \
   --topic orders-by-user \
   --create
+  
 kafka-topics \
   --bootstrap-server localhost:9092 \
   --topic discount-profiles-by-user \
   --create \
   --config "cleanup.policy=compact"
+  
 kafka-topics \
   --bootstrap-server localhost:9092 \
   --topic discounts \
   --create \
   --config "cleanup.policy=compact"
+  
 kafka-topics \
   --bootstrap-server localhost:9092 \
   --topic orders \
   --create
+  
 kafka-topics \
   --bootstrap-server localhost:9092 \
   --topic payments \
   --create
+  
 kafka-topics \
   --bootstrap-server localhost:9092 \
   --topic paid-orders \
