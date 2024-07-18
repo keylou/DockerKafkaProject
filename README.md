@@ -81,9 +81,9 @@ kafka-console-producer \
    --property key.separator=,
 order1,{"orderId":"order1","status":"PAID"}
 order2,{"orderId":"order2","status":"PENDING"}
-```
 
 kafka-console-consumer \
     --bootstrap-server localhost:9092 \
     --topic paid-orders \
     --from-beginning
+```
