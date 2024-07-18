@@ -2,7 +2,7 @@
 Проект по знакомству с Docker и Message Broker
 
 Команды: которые нужно вписать в консоль после запуска программы:
-
+```
 cd /Users/.../src/main/docker/kafka
 
 docker-compose up
@@ -10,15 +10,10 @@ docker-compose up
 docker exec -it broker bash
 
 kafka-topics --bootstrap-server localhost:9092 --topic orders-by-user --delete
-
 kafka-topics --bootstrap-server localhost:9092 --topic discount-profiles-by-user --delete
-
 kafka-topics --bootstrap-server localhost:9092 --topic discounts --delete
-
 kafka-topics --bootstrap-server localhost:9092 --topic orders --delete
-
 kafka-topics --bootstrap-server localhost:9092 --topic payments --delete
-
 kafka-topics --bootstrap-server localhost:9092 --topic paid-orders --delete
 
 
@@ -86,6 +81,7 @@ kafka-console-producer \
    --property key.separator=,
 order1,{"orderId":"order1","status":"PAID"}
 order2,{"orderId":"order2","status":"PENDING"}
+```
 
 kafka-console-consumer \
     --bootstrap-server localhost:9092 \
