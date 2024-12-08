@@ -96,4 +96,4 @@ kafka-console-consumer \
 <img width="482" alt="image" src="https://github.com/user-attachments/assets/ee73721d-ffbf-48e9-b9e1-f54df4a0a5a5">
 <img width="482" alt="image" src="https://github.com/user-attachments/assets/59aae2f7-dc55-46a3-8dc4-bdc9c93068d9">
 
-
+проверка ключа шифрования
